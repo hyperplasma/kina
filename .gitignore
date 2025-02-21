@@ -21,6 +21,9 @@
 *.pem
 .idea
 .vscode
+.htaccess
+.user.ini
+.well-known
 
 # debug
 npm-debug.log*
