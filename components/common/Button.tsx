@@ -15,7 +15,7 @@ export default function Button({
                                }: ButtonProps) {
     return (
         <button
-            className={`inline-flex my-menu-button items-center border border-gray-600 rounded px-3 py-1.5
+            className={`inline-flex my-menu-button-min-w-h-38px items-center border border-gray-600 rounded px-3 py-1.5
              ${variant === "default" ? "text-black dark:text-gray-300 bg-gray-50 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-900"
                 : variant === "outline" ? "border border-gray-300 dark:border-gray-600 text-black dark:text-gray-300 bg-gray-50 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700"
                     : "text-black dark:text-gray-300 bg-transparent hover:bg-gray-200 dark:hover:bg-gray-700"} 
