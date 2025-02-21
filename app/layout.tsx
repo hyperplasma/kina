@@ -1,5 +1,6 @@
 import './globals.css'
 import type {Metadata} from 'next'
+import AppContextProvider from "@/components/AppContext";
 
 export const metadata: Metadata = {
     title: 'KINA - Hyperplasma',
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        <body>{children}</body>
+        <body>
+        <AppContextProvider>{children}</AppContextProvider>
+        </body>
         </html>
     )
 }

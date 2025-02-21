@@ -24,6 +24,7 @@
 .htaccess
 .user.ini
 .well-known
+.package-lock.json
 
 # debug
 npm-debug.log*

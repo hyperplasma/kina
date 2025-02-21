@@ -7,3 +7,13 @@ html, body {
     height: 100%;
     font-size: 16px;
 }
+
+/* Temporary button style */
+.my-menu-button {
+    min-width: 38px;
+    min-height: 38px;
+}
+
+.my-nav-bar {
+    width: 260px;
+}
