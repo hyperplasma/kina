@@ -92,7 +92,6 @@ export default function ChatItem({item, selected, onSelected}: Props) {
                                 </button>
                                 <button
                                     onClick={(e) => {
-
                                         setDeleting(true)
                                         e.stopPropagation()
                                     }}

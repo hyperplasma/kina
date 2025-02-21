@@ -63,3 +63,13 @@ html, body {
 .my-pr-3dot5em {
     padding-right: 3.5em;
 }
+
+/* temp - min-w-148px */
+.my-min-w-148px {
+    min-width: 148px;
+}
+
+/* temp - text-[#26cf8e] */
+.my-text-#26cf8e {
+    color: #26cf8e;
+}
